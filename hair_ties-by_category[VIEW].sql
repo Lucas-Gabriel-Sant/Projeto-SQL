@@ -1,6 +1,6 @@
-USE lacos;
+USE hair_ties;
 
-DROP VIEW IF EXISTS por_categoria;
-CREATE VIEW por_categoria AS
-SELECT * FROM produtos
-ORDER BY categoria_id;
+DROP VIEW IF EXISTS by_category;
+CREATE VIEW by_category AS
+SELECT * FROM products
+ORDER BY category_id;
