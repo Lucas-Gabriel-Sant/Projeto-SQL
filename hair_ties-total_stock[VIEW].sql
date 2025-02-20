@@ -1,7 +1,7 @@
-USE lacos;
+USE hair_ties;
 
-DROP VIEW IF EXISTS total_estoque;
-CREATE VIEW total_estoque AS
-SELECT SUM(estoque) AS estoque_total
-FROM produtos
-ORDER BY categoria_id;
+DROP VIEW IF EXISTS total_stock;
+CREATE VIEW total_stock AS
+SELECT SUM(stock) AS stock_total
+FROM products
+ORDER BY category_id;
